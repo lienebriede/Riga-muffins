@@ -19,7 +19,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #b63737;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 Header a {
     text-decoration: none;
@@ -31,7 +33,6 @@ Header a {
     font-size: xxx-large;
     color:rgba(4, 4, 4, 0.92);
     letter-spacing: 1px;
-    margin-top: 5px;
 }
 
 #menu {
@@ -49,10 +50,31 @@ Header a {
 .active {
     border-bottom: 1px solid rgba(57, 56, 56, 0.92);
 }
+
+nav {
+    position: absolute;
+    background-color: #f3adbb;
+    left: 0;
+    padding: 0 1rem;
+    width: 100%;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display:block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 3rem; 
+}
 main {
-    background-color: aquamarine;
+    background-color: white;
     flex: 1 0 auto;
+    margin-top: 68px;
 }
 footer {
-    background-color: aqua;
+    background-color: #f3adbb;
 }
