@@ -14,7 +14,12 @@ body {
     font-family: "Poppins", sans-serif;
 }
 header {
-    background-color: yellow;
+    background-color: #f3adbb;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #logo {
