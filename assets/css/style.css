@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color: rgba(9, 8, 8, 0.824);
     font-family: "Poppins", sans-serif;
 }
 header {
@@ -19,11 +19,35 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #b63737;
+}
+Header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #logo {
     font-family: "Bangers", cursive;
+    font-size: xxx-large;
+    color:rgba(4, 4, 4, 0.92);
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+#menu {
+    font-size: large;
+    text-transform: uppercase;
+    color:rgba(57, 56, 56, 0.92);
+    letter-spacing: 0,5px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid rgba(57, 56, 56, 0.92);
 }
 main {
     background-color: aquamarine;
