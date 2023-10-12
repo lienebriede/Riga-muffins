@@ -13,15 +13,24 @@ body {
     color: rgba(9, 8, 8, 0.824);
     font-family: "Poppins", sans-serif;
 }
+
+.header-picture-container {
+    height: 800;
+    width: 1440;
+}
+
 header {
-    background-color: #f3adbb;
+    margin-top: 10px;
+    background-color: rgba(243, 173, 187, 0.9);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 Header a {
     text-decoration: none;
@@ -53,10 +62,9 @@ Header a {
 
 nav {
     position: absolute;
-    background-color: #f3adbb;
-    left: 0;
+    background-color: rgba(243, 173, 187, 0.9);
+    right: 0;
     padding: 0 1rem;
-    width: 100%;
     display: none;
     top: 100%;
 }
@@ -68,12 +76,12 @@ nav {
     display: none;
 }
 .nav-toggle-label {
-    font-size: 3rem; 
+    font-size: 2rem; 
 }
 main {
     background-color: white;
     flex: 1 0 auto;
-    margin-top: 68px;
+    margin-top: 0px;
 }
 footer {
     background-color: #f3adbb;
