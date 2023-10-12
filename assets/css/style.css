@@ -15,7 +15,7 @@ body {
 }
 header {
     background-color: rgb(243, 173, 187);
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -41,6 +41,8 @@ h1 {
 }
 #menu > li {
     margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
 }
 .active {
     border-bottom: 1px solid rgba(57, 56, 56, 0.92);
@@ -90,4 +92,5 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+   
 }
