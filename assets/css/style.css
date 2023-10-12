@@ -87,10 +87,14 @@ footer {
         display: flex;
     }
     #menu > li {
-        padding-left: 1rem;
+        padding-left: 3rem;
     }
     .nav-toggle-label {
         display: none;
     }
-   
+   #logo {
+    font-size: 300%;
+    line-height: 75px;
+    margin: 0 2rem;
+   }
 }
