@@ -15,7 +15,7 @@ body {
 }
 header {
     background-color: rgb(243, 173, 187);
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -96,5 +96,10 @@ footer {
     font-size: 300%;
     line-height: 75px;
     margin: 0 2rem;
+   }
+   @media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid rgba(57, 56, 56, 0.92);
+    }
    }
 }
