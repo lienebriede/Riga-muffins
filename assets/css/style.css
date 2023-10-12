@@ -13,64 +13,51 @@ body {
     color: rgba(9, 8, 8, 0.824);
     font-family: "Poppins", sans-serif;
 }
-
-.header-picture-container {
-    height: 800;
-    width: 1440;
-}
-
 header {
-    margin-top: 10px;
-    background-color: rgba(243, 173, 187, 0.9);
+    background-color: rgb(243, 173, 187);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    height: 4rem;
+    box-shadow: 0 2px 2px rgba(9, 8, 8, 0.824);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: baseline;
 }
-Header a {
+header a {
     text-decoration: none;
     color: inherit;
 }
-
-#logo {
+h1 {
     font-family: "Bangers", cursive;
-    font-size: xxx-large;
     color:rgba(4, 4, 4, 0.92);
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
-
 #menu {
-    font-size: large;
-    text-transform: uppercase;
-    color:rgba(57, 56, 56, 0.92);
     letter-spacing: 0,5px;
     list-style-type: none;
+    color: rgba(4, 4, 4, 0.92);
+    text-transform: uppercase;
 }
-
 #menu > li {
     margin-bottom: 1em;
 }
-
 .active {
     border-bottom: 1px solid rgba(57, 56, 56, 0.92);
 }
-
 nav {
     position: absolute;
     background-color: rgba(243, 173, 187, 0.9);
-    right: 0;
+    width: 100%;
+    left: 0;
     padding: 0 1rem;
+    box-shadow: 0 2px 2px rgba(9, 8, 8, 0.824);
     display: none;
-    top: 100%;
+    top: 100%; 
+     
 }
-
 #nav-toggle:checked~nav {
-    display:block;
+    display: block;
 }
 #nav-toggle {
     display: none;
@@ -78,11 +65,29 @@ nav {
 .nav-toggle-label {
     font-size: 2rem; 
 }
+
 main {
     background-color: white;
     flex: 1 0 auto;
-    margin-top: 0px;
 }
 footer {
-    background-color: #f3adbb;
+    background-color: rgb(243, 173, 187);
+}
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
