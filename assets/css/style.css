@@ -75,6 +75,18 @@ main {
 footer {
     background-color: rgb(243, 173, 187);
 }
+#social-networks {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 5px;
+}
+
+#social-networks i {
+    font-size: 100%;
+    padding-right: 20%;
+    color: rgba(9, 8, 8, 0.824)
+}
 @media screen and (min-width: 768px) {
     nav {
         display: block;
