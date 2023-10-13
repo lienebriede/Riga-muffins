@@ -14,7 +14,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 header {
-    background-color: rgb(243, 173, 187);
+    background-color: rgba(243, 173, 187, 0.9);
     padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 12px;
 }
 header a {
     text-decoration: none;
@@ -38,6 +39,7 @@ h1 {
     list-style-type: none;
     color: rgba(4, 4, 4, 0.92);
     text-transform: uppercase;
+    background-color: none;
 }
 #menu > li {
     margin-bottom: 1em;
@@ -69,8 +71,15 @@ nav {
 }
 
 main {
-    background-color: white;
     flex: 1 0 auto;
+}
+#hero {
+    width: 100%;
+    height: 800px;
+    background: url("../images/shop2.jpg") no-repeat center center/cover;
+}
+p {
+    font-size: 80%;
 }
 footer {
     background-color: rgb(243, 173, 187);
@@ -79,13 +88,22 @@ footer {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 5px;
+    gap: 10px;
 }
 
 #social-networks i {
-    font-size: 100%;
-    padding-right: 20%;
+    font-size: 150%;
     color: rgba(9, 8, 8, 0.824)
+}
+footer p {
+    text-align: center;
+}
+footer div {
+    padding-top: 30px;
+}
+#copy {
+    font-size: 80%;
+    padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
     nav {
@@ -94,9 +112,11 @@ footer {
         box-shadow: none;
         width:fit-content;
         padding-right: 1rem;
+        background-color: transparent;
     }
     #menu {
         display: flex;
+        background-color: ;
     }
     #menu > li {
         padding-left: 3rem;
@@ -114,6 +134,7 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid rgba(57, 56, 56, 0.92);
     }
+
     #menu > li {
         padding-left: 5rem;
         padding-right: 2rem;
