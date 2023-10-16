@@ -26,6 +26,12 @@ h2 {
     text-transform: uppercase;
 }
 
+p {
+    font-size: 16px;
+    padding: 19px;
+    text-align: center;
+}
+
 header {
     background-color: rgba(243, 173, 187, 0.9);
     padding: 0.5rem 1rem;
@@ -109,11 +115,12 @@ main {
 }
 
 p {
-    font-size: 80%;
+    
 }
 
 footer {
     background-color: rgb(243, 173, 187);
+    
 }
 
 #social-networks {
@@ -128,12 +135,11 @@ footer {
     color: rgb(39, 38, 38)
 }
 
-footer p {
-    text-align: center;
-}
-
 footer div {
     padding-top: 30px;
+}
+footer p {
+    padding: 0;
 }
 
 #copy {
@@ -171,7 +177,8 @@ footer div {
     }
 
     p {
-        font-size: 100%;
+        font-size: 120%;
+        padding: 24px;
     }
 
     #cover-text {
