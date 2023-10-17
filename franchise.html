@@ -36,10 +36,11 @@
         </nav>
     </header>
     <main>
-        <section id="franchise">
+        <section id="franchise_pic">
             <form id="form" method="POST" action="email.html">
-                <h2>Become a Riga Muffins franchise!</h2>
-                <h3>If you are interested in Riga Muffins franchising, please fill in the form below and we will contact you.</h3>
+                <h3>Become a Riga Muffins franchise!</h3>
+                <h4>If you are interested in Riga Muffins franchising, please fill in the form below and we will contact
+                    you.</h4>
                 <label for="name_surname">Name, Surname:*</label>
                 <br>
                 <input type="text" name="name_surname" id="name_surname" class="text-input" required>
@@ -50,7 +51,7 @@
                 <br>
                 <label for="country">Country:*</label>
                 <br>
-                <select name="country" id="country" required>
+                <select name="country" id="country" class="select" required>
                     <option value="" disabled selected hidden>Select</option>
                     <option value="latvia">Latvia</option>
                     <option value="estonia">Estonia</option>
@@ -63,17 +64,18 @@
                 <br>
                 <label for="financing">Available financing:*</label>
                 <br>
-                <select name="financing" id="financing" required>
+                <select name="financing" id="financing" class="select" required>
                     <option value="" disabled selected hidden>Select</option>
                     <option value="30">30 000 - 50 000 EUR</option>
                     <option value="50">50 000 - 70 000 EUR</option>
                     <option value="70">70 000 - 100 000 EUR</option>
-                    <option value="100">< 100 000 EUR</option>
+                    <option value="100">
+                        < 100 000 EUR</option>
                 </select>
-                <br>    
+                <br>
                 <label for="source">Source of financing:*</label>
                 <br>
-                <select name="source" id="source" required>
+                <select name="source" id="source" class="select" required>
                     <option value="" disabled selected hidden>Select</option>
                     <option value="personal">Personal investment</option>
                     <option value="external">External</option>
@@ -86,12 +88,12 @@
                 <br>
                 <label for="message">Message:</label>
                 <br>
-                <textarea name="message" id="message" value="message" cols="50" rows="20"></textarea>
+                <textarea name="message" id="message" value="message" cols="40" rows="5"></textarea>
                 <br>
-                <button type="submit" class="">Submit</label>
+                <button type="submit" class="button">Submit</label>
             </form>
         </section>
-        
+
     </main>
     <footer>
         <div>
