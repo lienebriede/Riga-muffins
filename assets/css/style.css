@@ -1,6 +1,8 @@
+/*  Google fonts: Poppins for text & Bangers for logo */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+/* Wildcard for all elements to make them look the same in all browsers */
 * {
     padding: 0;
     margin: 0;
@@ -8,47 +10,58 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* JavaScript variable for colors */
+:root {
+    --black: rgb(5, 5, 5);
+    --dark-grey: rgb(39, 38, 38);
+    --pink: rgba(243, 173, 187, 0.9);
+    --grey: rgba(40, 39, 39, 0.5);
+    --white: white;
+    --yellow: #f9f871;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(39, 38, 38);
+    color: var(--dark-grey);
     font-family: "Poppins", sans-serif;
+    /* Formula for a responsive font size */
+    font-size: calc(15px + 0.390625vw);
+    text-align: center;
 }
 
 h1 {
     font-family: "Bangers", cursive;
-    color: rgb(5, 5, 5);
+    color: var(--black);
     letter-spacing: 1.5px;
 }
 
 h2 {
-    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
     text-transform: uppercase;
-    font-size: 64px;
     text-align: center;
 }
 
 h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 1.2rem;
+    /*line-height: 2;*/
     text-align: center;
-    line-height: 2;
 }
 
 p {
-    font-size: 16px;
+
     padding: 19px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 header {
-    background-color: rgba(243, 173, 187, 0.9);
+    background-color: var(--pink);
     padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px rgb(39, 38, 38);
+    box-shadow: var(--dark-grey);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,7 +76,7 @@ header a {
 #menu {
     letter-spacing: 0, 5px;
     list-style-type: none;
-    color: rgb(5, 5, 5, );
+    color: var(--black);
     text-transform: uppercase;
     background-color: none;
 }
@@ -75,17 +88,16 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid rgb(5, 5, 5, );
+    border-bottom: 1px solid var(--black);
 }
 
 nav {
     position: absolute;
-    background-color: rgba(243, 173, 187, 0.9);
+    background-color: var(--pink);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px rgb(39, 38, 38);
-    display: none;
+    box-shadow: 0 2px 2px var(dark-grey) display: none;
     top: 100%;
 
 }
@@ -106,22 +118,26 @@ main {
     flex: 1 0 auto;
 }
 
-#hero {
-    width: 100%;
-    height: 600px;
+#home_pic {
     background: url("../images/shop.png") no-repeat center center/cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
-#hero_products {
+
+#products_pic {
     background: url("../images/muffins.png") no-repeat center center/cover;
 }
 
-#cover-text {
-    color: white;
-    background-color: rgba(40, 39, 39, 0.5);
+.hero {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cover-text {
+    color: var(--white);
+    background-color: var(--grey);
     padding: 0 10px;
 }
 
@@ -135,9 +151,9 @@ main {
 }
 
 #form {
-    background-color: rgba(40, 39, 39, 0.5);
+    background-color: var(--grey);
     width: 90%;
-    color: white;
+    color: var(--white);
     font-size: 16px;
     padding: 0 50px 20px 50px;
     margin-top: 130px;
@@ -153,10 +169,10 @@ h3 {
 .select,
 #message {
     background: transparent;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     width: 100%;
     height: 35px;
-    color: white;
+    color: var(--white);
     padding: 2px 6px;
     border-radius: 5px;
     margin: 3px 0 15px 0;
@@ -170,7 +186,7 @@ h3 {
     margin-top: 10px;
     border-radius: 5px;
     padding: 10px 40px;
-    background-color: #f9f871;
+    background-color: var(--yellow);
     border: none;
 }
 
@@ -182,7 +198,7 @@ button {
 }
 
 footer {
-    background-color: rgb(243, 173, 187);
+    background-color: var(--pink);
 
 
 }
@@ -196,7 +212,7 @@ footer {
 
 #social-networks i {
     font-size: 150%;
-    color: rgb(39, 38, 38)
+    color: var(dark-grey);
 }
 
 footer div {
@@ -221,9 +237,9 @@ footer p {
         padding-right: 1rem;
         background-color: transparent;
     }
-    h2 {
-        font-size: 370%;
-    }
+
+
+
     #menu {
         display: flex;
     }
@@ -244,7 +260,7 @@ footer p {
     }
 
     p {
-        font-size: 120%;
+
         padding: 24px;
     }
 
@@ -252,7 +268,7 @@ footer p {
         width: 80%;
     }
 
-    
+
 
     #form,
     #form>h3 {
@@ -262,7 +278,7 @@ footer p {
 
 @media screen and (min-width: 1024px) {
     #menu a:hover {
-        border-bottom: 1px solid rgb(5, 5, 5);
+        border-bottom: 1px solid var(--black);
     }
 
     #menu>li {
@@ -271,9 +287,7 @@ footer p {
         font-size: 130%;
     }
 
-    p {
-        font-size: 140%;
-    }
+
 
     #social-networks i {
         font-size: 220%;
@@ -283,9 +297,7 @@ footer p {
         gap: 15px;
     }
 
-    h2 {
-        font-size: 420%;
-    }
+
 
     #form,
     #form>h3 {
@@ -312,7 +324,5 @@ footer p {
             font-size: 170%;
         }
 
-        h2 {
-            font-size: 450%;
-        }
+
     }
