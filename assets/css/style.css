@@ -1,4 +1,4 @@
-/*  Google fonts: Poppins for text & Bangers for logo */
+/*  Google fonts import: Poppins for text & Bangers for logo */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
@@ -6,66 +6,66 @@
 * {
     padding: 0;
     margin: 0;
+    /*  Height & Width will be applied to the border as well */
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
 /* JavaScript variable for colors */
 :root {
-    --black: rgb(5, 5, 5);
-    --dark-grey: rgb(39, 38, 38);
+    --black: rgb(0, 0, 0);
+    --darkgrey: rgb(51, 51, 51);
     --pink: rgba(243, 173, 187, 0.9);
     --grey: rgba(40, 39, 39, 0.5);
-    --white: white;
-    --yellow: #f9f871;
+    --white: rgb(255, 255, 255);
+    --yellow: rgb(249, 248, 113);
 }
 
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: var(--dark-grey);
+    text-align: center;
     font-family: "Poppins", sans-serif;
     /* Formula for a responsive font size */
     font-size: calc(15px + 0.390625vw);
-    text-align: center;
 }
 
 h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2 {
     font-family: "Bangers", cursive;
     color: var(--black);
     letter-spacing: 1.5px;
 }
 
-h2 {
-    font-size: 4rem;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 h3 {
     font-size: 1.2rem;
     /*line-height: 2;*/
-    text-align: center;
+    /*text-align: center;*/
 }
 
 p {
-
+    color: var(--darkgrey);
     padding: 19px;
     /*text-align: center;*/
 }
 
+/* Header styles */
 header {
     background-color: var(--pink);
     padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: var(--dark-grey);
+    box-shadow: var(--darkgrey);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 12px;
 }
 
 header a {
@@ -73,6 +73,7 @@ header a {
     color: inherit;
 }
 
+/* Menu (nav bar text) styles */
 #menu {
     letter-spacing: 0, 5px;
     list-style-type: none;
@@ -91,15 +92,16 @@ header a {
     border-bottom: 1px solid var(--black);
 }
 
+/* Nav bar styles */
 nav {
     position: absolute;
     background-color: var(--pink);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px var(dark-grey) display: none;
+    box-shadow: 0 2px 2px var(--darkgrey);
+    display: none;
     top: 100%;
-
 }
 
 #nav-toggle:checked~nav {
@@ -114,15 +116,18 @@ nav {
     font-size: 2rem;
 }
 
+/* Main content styles */
 main {
-    flex: 1 0 auto;
+    /* When the screen is too small for the content, it won't shrink, takes the space
+    flex: 1 0 auto; */
 }
 
-#home_pic {
+/* Hero picture & text styles */
+.home_pic {
     background: url("../images/shop.png") no-repeat center center/cover;
 }
 
-#products_pic {
+.products_pic {
     background: url("../images/muffins.png") no-repeat center center/cover;
 }
 
@@ -134,14 +139,13 @@ main {
     justify-content: center;
 }
 
-
 .cover-text {
     color: var(--white);
     background-color: var(--grey);
     padding: 0 10px;
 }
 
-#franchise_pic {
+.franchise_pic {
     background-image: url("../images/cafe.png");
     background-position: center;
     background-size: cover;
@@ -197,22 +201,9 @@ button {
     font-size: 16px;
 }
 
+/* Footer styles */
 footer {
     background-color: var(--pink);
-
-
-}
-
-#social-networks {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    gap: 10px;
-}
-
-#social-networks i {
-    font-size: 150%;
-    color: var(dark-grey);
 }
 
 footer div {
@@ -220,15 +211,32 @@ footer div {
 }
 
 footer p {
+    color: var(--black);
     padding: 0;
 }
 
-#copy {
+/* Socials icons & layout */
+.social-networks {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.social-networks i {
+    font-size: 150%;
+    color: var(--black);
+}
+
+.copy {
     font-size: 80%;
     padding-bottom: 20px;
 }
 
+/* For tablet-size screens and bigger */
 @media screen and (min-width: 768px) {
+
+    /* Nav bar, menu & logo styles */
     nav {
         display: block;
         position: relative;
@@ -238,15 +246,12 @@ footer p {
         background-color: transparent;
     }
 
-
-
     #menu {
         display: flex;
     }
 
     #menu>li {
         padding-left: 3rem;
-        font-size: 115%;
     }
 
     .nav-toggle-label {
@@ -259,6 +264,7 @@ footer p {
         margin: 0 2rem;
     }
 
+    /* //// */
     p {
 
         padding: 24px;
@@ -276,53 +282,63 @@ footer p {
     }
 }
 
+/* For small laptop screens and bigger */
 @media screen and (min-width: 1024px) {
+
+    /* Nav bar, menu & logo styles + hover button */
     #menu a:hover {
         border-bottom: 1px solid var(--black);
     }
 
     #menu>li {
-        padding-left: 5rem;
+        padding-left: 4rem;
         padding-right: 2rem;
-        font-size: 130%;
+        font-size: 120%;
     }
 
+    #logo {
+        font-size: 220%;
+    }
 
-
+    /* Socials icons & layout */
     #social-networks i {
         font-size: 220%;
     }
 
     #social-networks {
         gap: 15px;
-    }
-
-
-
-    #form,
-    #form>h3 {
-        font-size: 22px;
-    }
-
-    input,
-    select,
-    textarea,
-    button {
-        font-size: 18px;
-    }
-
-    @media screen and (min-width: 1440px) {
-        #logo {
-            font-size: 400%;
-            line-height: 100px;
-            margin: 0 4rem;
-        }
-
-        #menu>li {
-            padding-left: 5rem;
-            padding-right: 4rem;
-            font-size: 170%;
-        }
-
 
     }
+}
+
+/*
+
+#form,
+#form>h3 {
+    font-size: 22px;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: 18px;
+}
+*/
+
+/* For laptop screens and bigger */
+@media screen and (min-width: 1440px) {
+
+    /* Nav bar, menu & logo styles */
+    #logo {
+        font-size: 240%;
+        line-height: 100px;
+        margin: 0 4rem;
+    }
+
+    #menu>li {
+        padding-left: 5rem;
+        padding-right: 4rem;
+        font-size: 140%;
+    }
+}
