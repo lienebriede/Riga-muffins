@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-/* Wildcard for all elements to make them look the same in all browsers */
+/* Asterix wildcard for all elements to make them look the same in all browsers */
 * {
     padding: 0;
     margin: 0;
@@ -26,7 +26,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    text-align: center;
     font-family: "Poppins", sans-serif;
     /* Formula for a responsive font size */
     font-size: calc(15px + 0.390625vw);
@@ -35,6 +34,7 @@ body {
 h1 {
     font-size: 1.8rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
@@ -43,16 +43,10 @@ h2 {
     letter-spacing: 1.5px;
 }
 
-h3 {
-    font-size: 1.2rem;
-    /*line-height: 2;*/
-    /*text-align: center;*/
-}
-
 p {
     color: var(--darkgrey);
     padding: 19px;
-    /*text-align: center;*/
+    text-align: center;
 }
 
 /* Header styles */
@@ -151,27 +145,28 @@ main {
     background-size: cover;
     display: flex;
     justify-content: center;
-
 }
 
-#form {
+/* Main section styles */
+/* Form styles */
+.form {
     background-color: var(--grey);
     width: 90%;
     color: var(--white);
-    font-size: 16px;
+    font-size: calc(15px + 0.390625vw);
     padding: 0 50px 20px 50px;
     margin-top: 130px;
     margin-bottom: 30px;
 }
 
-#form>h2,
-h3 {
-    margin-bottom: 30px;
+.form p {
+    color: var(--white);
+    line-height: 2rem;
 }
 
 .text-input,
 .select,
-#message {
+.message {
     background: transparent;
     border: 1px solid var(--white);
     width: 100%;
@@ -182,7 +177,7 @@ h3 {
     margin: 3px 0 15px 0;
 }
 
-#message {
+.message {
     height: fit-content;
 }
 
@@ -198,7 +193,7 @@ input,
 select,
 textarea,
 button {
-    font-size: 16px;
+    font-size: calc(15px + 0.390625vw);
 }
 
 /* Footer styles */
@@ -277,19 +272,9 @@ footer p {
         height: 400px;
     }
 
-    /* //// */
+    /* Main section styles */
     p {
-
         padding: 24px;
-    }
-
-
-
-
-
-    #form,
-    #form>h3 {
-        font-size: 18px;
     }
 }
 
@@ -334,21 +319,6 @@ footer p {
 
     }
 }
-
-/*
-
-#form,
-#form>h3 {
-    font-size: 22px;
-}
-
-input,
-select,
-textarea,
-button {
-    font-size: 18px;
-}
-*/
 
 /* For laptop screens and bigger */
 @media screen and (min-width: 1440px) {
