@@ -49,7 +49,12 @@ h3 {
     text-align: center;
     color: var(--darkgrey);
     margin-bottom: 20px;
-    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--darkgrey);
 }
 
 p {
@@ -161,13 +166,23 @@ nav {
 }
 
 /* Column styles */
-.columns {
+.grid {
     text-align: center;
     color: var(--darkgrey);
     padding: 19px;
 }
 
+.menu_pictures {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+ul {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 /* Form styles */
 .form {
@@ -265,6 +280,10 @@ footer p {
         font-size: 2rem;
     }
 
+    h4 {
+        font-size: 1.2rem;
+    }
+
     /* Nav bar styles */
     nav {
         display: block;
@@ -305,19 +324,17 @@ footer p {
     }
 
     /* Column styles */
-    .column33 {
-        float: left;
-        width: 33%;
-        padding-bottom: 30px;
-    }
-
-    .column50 {
+    .grids {
         float: left;
         width: 50%;
         padding-bottom: 30px;
+        /*vertical-align: top;
+        display: inline-block;
+        width: 50%;*/
     }
 
 
+    .menu_pictures {}
 }
 
 /* For small laptop screens and bigger */
@@ -347,6 +364,10 @@ footer p {
         font-size: 2.5rem;
     }
 
+    h4 {
+        font-size: 1.5rem;
+    }
+
     .cover-text {
         padding: 0 30px;
     }
@@ -354,6 +375,7 @@ footer p {
     .hero {
         height: 500px;
     }
+
 
     /* Socials icons & layout */
     #social-networks i {
@@ -389,6 +411,10 @@ footer p {
 
     h3 {
         font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 1.8rem;
     }
 
     .hero {
