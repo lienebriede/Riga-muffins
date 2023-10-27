@@ -1,52 +1,43 @@
 <h2 align="center">Riga Muffins Website</h2>
+
+
 [Find the project here.](https://lienebriede.github.io/Riga-muffins/)
 
-This is a simple webpage for a muffin shop. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers.
+This is a simple webpage for a muffin shop, but can be used for any other small shop, bakery or cafe that offers a limited selection of goods.  It is designed to be responsive and accessible on a range of devices.
 
-<h2 align="center"><img src="assets/images/muffins.png"></h2>
+<h2 align="center"><img src="assets/images/screenshot.png"></h2>
 
 ## User Experience (UX)
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
+    #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    As a First Time Visitor, I want to learn about the shop.
+    I want to navigate easily throughout the site to find content. I want to see what the shop offers and find the links to their social media pages.
 
-    -   #### Returning Visitor Goals
+    #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+    As a Returning Visitor, I want to learn more about their products and look for specific products. I also want to find a way to get in contact with the shop and contact them to ask questions about their products or make an order.
 
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    #### Frequent User Goals
+    
+    As a Frequent User, I want to check to see if there are any newly added products and to contact the shop to make an order.
 
 -   ### Design
-    -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
-    -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-    -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    
+    #### Colour Scheme
+    The colors used are pink and yellow.
+    
+    #### Typography
+    The main font used for this webpage is Poppins with Sans Serif as the fallback font. Poppins is simple, attractive and used frequently in programming. The other font that is used is Bangers. It is a comic book font and stands out, so it is used only for the logo.
+    #### Imagery
+    Imagery is very important for this page, because it not only catches the users attention, but also represents the shop and the products the shop offers. 
 
-*   ### Wireframes
-
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
--   Responsive on all device sizes
-
--   Interactive elements
+Responsive on all device sizes
 
 ## Technologies Used
 
@@ -54,27 +45,24 @@ This is a simple webpage for a muffin shop. It is designed to be responsive and 
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Java Script](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the menu bar in the header to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - Font Awesome was used to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Photoshop was used for resizing images for the website.
+1. [Figma:](https://balsamiq.com/)
+    - Figma was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
