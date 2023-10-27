@@ -165,15 +165,17 @@ nav {
     justify-content: center;
 }
 
-/* Column styles */
-.grid {
-    text-align: center;
+/* Column styles text-align: left;
     color: var(--darkgrey);
-    padding: 19px;
+    padding: 19px;*/
+
+.column {
+    padding: 20px 15px;
 }
 
 .menu_pictures {
     width: 80%;
+    /* center the picture */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -323,18 +325,17 @@ footer p {
         height: 400px;
     }
 
-    /* Column styles */
-    .grids {
-        float: left;
-        width: 50%;
-        padding-bottom: 30px;
-        /*vertical-align: top;
-        display: inline-block;
-        width: 50%;*/
+    /* Responsive design: make two columns */
+
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 
-    .menu_pictures {}
+
+
+
 }
 
 /* For small laptop screens and bigger */
