@@ -249,7 +249,7 @@ footer p {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
 }
 
 .social-networks i {
@@ -392,7 +392,7 @@ footer p {
     }
 
     #menu>li {
-        padding-left: 5rem;
+        padding-left: 4rem;
         padding-right: 3rem;
         font-size: 140%;
     }
