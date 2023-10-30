@@ -297,7 +297,7 @@ footer p {
     }
 
     #menu>li {
-        padding-left: 3rem;
+        padding-left: 2.5rem;
     }
 
     .nav-toggle-label {
@@ -316,7 +316,7 @@ footer p {
     }
 
     .hero {
-        height: 400px;
+        height: 450px;
     }
 
     /* Columns: responsive - make two columns */
