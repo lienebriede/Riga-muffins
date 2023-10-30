@@ -11,7 +11,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* JavaScript variable for colors */
+/* Variable for colors */
 :root {
     --black: rgb(0, 0, 0);
     --darkgrey: rgb(51, 51, 51);
@@ -38,6 +38,7 @@ h1 {
 }
 
 h2 {
+    font-size: 1.7rem;
     font-family: "Bangers", cursive;
     color: var(--black);
     letter-spacing: 1.5px;
@@ -274,6 +275,10 @@ footer p {
         font-size: 2.4rem;
     }
 
+    h2 {
+        font-size: 2.2rem;
+    }
+
     h3 {
         font-size: 2rem;
     }
@@ -305,8 +310,7 @@ footer p {
     }
 
     #logo {
-        font-size: 200%;
-        line-height: 75px;
+        line-height: 85px;
         margin: 0 2rem;
     }
 
@@ -329,6 +333,23 @@ footer p {
 /* For small laptop screens and bigger */
 @media screen and (min-width: 1024px) {
 
+    /* General styles */
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
     /* Nav bar, menu & logo styles + hover button */
     #menu a:hover {
         border-bottom: 1px solid var(--black);
@@ -341,31 +362,20 @@ footer p {
     }
 
     #logo {
-        font-size: 220%;
+
+        margin: 0 1rem;
     }
 
     /* Hero section styles */
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    h3 {
-        font-size: 2.5rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
+    .hero {
+        height: 500px;
     }
 
     .cover-text {
         padding: 0 30px;
     }
 
-    .hero {
-        height: 500px;
-    }
-
-    /*Main section*/
+    /* Main section */
     .form {
         margin-top: 200px;
     }
@@ -384,22 +394,13 @@ footer p {
 /* For laptop screens and bigger */
 @media screen and (min-width: 1440px) {
 
-    /* Nav bar, menu & logo styles */
-    #logo {
-        font-size: 240%;
-        line-height: 100px;
-        margin: 0 4rem;
-    }
-
-    #menu>li {
-        padding-left: 4rem;
-        padding-right: 3rem;
-        font-size: 140%;
-    }
-
-    /* Hero section styles */
+    /* General styles */
     h1 {
         font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.6rem;
     }
 
     h3 {
@@ -415,6 +416,19 @@ footer p {
         font-size: 26px;
     }
 
+    /* Nav bar, menu & logo styles */
+    #logo {
+        line-height: 100px;
+        margin: 0 4rem;
+    }
+
+    #menu>li {
+        padding-left: 4rem;
+        padding-right: 3rem;
+        font-size: 140%;
+    }
+
+    /* Hero section styles */
     .hero {
         height: 650px;
     }
