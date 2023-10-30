@@ -134,11 +134,11 @@ nav {
 
 /* Main content: Hero section styles */
 #home_pic {
-    background: url("../images/muffins.png") no-repeat center center/cover;
+    background: url("../images/muffins.webp") no-repeat center center/cover;
 }
 
 #products_pic {
-    background: url("../images/hero.jpg") no-repeat center center/cover;
+    background: url("../images/pastries.webp") no-repeat center center/cover;
 }
 
 .hero {
@@ -156,7 +156,7 @@ nav {
 }
 
 .franchise_pic {
-    background-image: url("../images/cafe.png");
+    background-image: url("../images/cafe.webp");
     background-position: center;
     background-size: cover;
     display: flex;

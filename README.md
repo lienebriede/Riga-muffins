@@ -56,7 +56,7 @@ Content
     Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+1. [Adobe Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     Photoshop was used for resizing images for the website.
 1. [Figma:](https://figma.com/)
     Figma was used to create the wireframes during the design process.
