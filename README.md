@@ -5,7 +5,7 @@
 
 This is a simple webpage for a muffin shop, but can be used for any other small shop, bakery or cafe that offers a limited selection of goods.  It is designed to be responsive and accessible on a range of devices.
 
-<h2 align="center"><img src="assets/images/screenshot.png"></h2>
+<h2 align="center"><img src="Documentation/Responsive.png"></h2>
 
 ## User Experience (UX)
 
@@ -69,7 +69,9 @@ Franchising page holds a form that should be filled out by users interested in f
 <h2 align="center"><img src="Documentation/franchise.png"></h2>
 
 ### Thank You Page
-Users are directed to the Thank you page after submitting the form.
+Users are directed to the Thank you page after submitting the form. From there they can go back to the Home page.
+
+<h2 align="center"><img src="Documentation/Thankyou.png"></h2>
 
 ### Footer
 The footer section includes the address of the shop, working hours and the relevant social media sites for the shop. The links will open to a new tab to allow easy navigation for the user.
@@ -104,7 +106,7 @@ The footer section includes the address of the shop, working hours and the relev
 
 ## Testing
 
-- The [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - The Website was tested on Google Chrome and Safari browsers. It was also tested on a variety of devices using [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
