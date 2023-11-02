@@ -18,11 +18,11 @@ This is a simple webpage for a muffin shop, but can be used for any other small 
 
     #### Returning Visitor Goals
 
-    As a Returning Visitor, I want to learn more about their products and look for specific products. I also want to find a way to get in contact with the shop and contact them to ask questions about their products or make an order.
+    As a Returning Visitor, I want to learn more about their products and look for specific products. I also want to find a way to get in contact with the shop and contact them to ask questions about their products or make an order. I also want to see the shops location and opening hours.
 
     #### Frequent User Goals
     
-    As a Frequent User, I want to check to see if there are any newly added products and to contact the shop to make an order.
+    As a Frequent User, I want to check to see if there are any newly added products and to contact the shop to make an order. I also want to check if there have been changes to the opening hours.
 
 -   ### Design
     
@@ -38,7 +38,7 @@ This is a simple webpage for a muffin shop, but can be used for any other small 
 ## Features
 
 ### Navigation Bar
-Featured on all three pages, the full responsive navigation bar includes links to the logo (links to "Home"), "Home", "Our Products" and "Franchising" pages. It is identical on each page to allow for easy navigation. For devices sized 1024px and larger, hover selector is used on the menu lists elements.
+Featured on all three pages, the full responsive navigation bar includes links to the logo (links to "Home"), "Home", "Our Products" and "Franchising" pages. It is identical on each page to allow for easy navigation. For devices sized 1024px and larger, the [hover selector](https://www.w3schools.com/cssref/sel_hover.php) is used on the menu lists elements.
 
 <h2 align="center"><img src="Documentation/nav bar_desktop.png"></h2>
 
@@ -54,27 +54,27 @@ Different hero images are used on pages "Home" and "Our Products" to draw the us
 <h2><img src="Documentation/hero_1.png" width="100">&nbsp; &nbsp;<img src="Documentation/hero_2.png" width="100"></h2>
 
 ### Home Page
-Home page gives information about the shop and how to contact it.
+The "Home" page gives information about the shop and how to contact it.
 
 <h2 align="center"><img src="Documentation/home.png"></h2>
 
 ### Our Products Page
-Our Products page introduces users to the products and the prices.
+The "Our Products" page introduces users to the products and the prices.
 
 <h2 align="center"><img src="Documentation/products.png"></h2>
 
 ### Franchising Page
-Franchising page holds a form that should be filled out by users interested in franchising. It is required to fill in the Name, Surname; Country; Available Financing; Source of Financing and an E-mail. The background photo of this page functions as marketing.
+The "Franchising" page contains a form that should be filled out by users interested in franchising. It is required to fill in the Name, Surname; Country; Available Financing; Source of Financing and a valid E-mail address. The background photo of this page functions as marketing as well.
 
 <h2 align="center"><img src="Documentation/franchise.png"></h2>
 
 ### Thank You Page
-Users are directed to the Thank you page after submitting the form. From there they can go back to the Home page.
+Users are directed to the "Thank you" page after submitting the form. From there they can go back to the "Home" page.
 
 <h2 align="center"><img src="Documentation/Thankyou.png"></h2>
 
 ### Footer
-The footer section includes the address of the shop, working hours and the relevant social media sites for the shop. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes the address of the shop, opening hours and the relevant social media sites for the shop. The links will open to a new tab to allow easy navigation for the user.
 
 <h2><img src="Documentation/footer.png" width="100"></h2>
 
@@ -96,13 +96,16 @@ The footer section includes the address of the shop, working hours and the relev
 1. [GitHub:](https://github.com/)
     GitHub is used to store the projects code after being pushed from Git.
 1. [Adobe Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    Photoshop was used for resizing images for the website.
+    Adobe Photoshop was used for resizing images for the website.
 1. [Figma:](https://figma.com/)
     Figma was used to create the wireframes during the design process.
 1. [Google Photos:](https://www.google.com/photos/about/) Google Photos was used for styling the "Our Products" page.
-1. [Pexels (a free stock photo site):](https://www.pexels.com/) was used for styling the headers of the page.
+1. [Pexels (a free stock photo site):](https://www.pexels.com/) Photos from Pexels were used for styling the headers of the page.
 
 ### Wireframes
+
+Before the web development process all pages were designed using [Figma](https://figma.com/). Some details like font and padding sizes were changed during the pages development. 
+<h2 align="center"><img src="Documentation/Figma_file.png"></h2>
 
 ## Testing
 
@@ -132,7 +135,7 @@ The project was deployed to [GitHub Pages](https://pages.github.com/). These ste
 Source - Deploy from a branch <br>
 Branch - main /root & Save <br>
 7. Select Code (top-left corner in the navigation menu).
-8. Select Deployment (right handside od the webpage).
+8. Select Deployment (right handside of the webpage).
 9. Go to the live website by clicking the icon with the arrow (on the right side).
 
 ### Content
