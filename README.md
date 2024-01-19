@@ -5,7 +5,7 @@
 
 This is a simple webpage for a muffin shop, but can be used for any other small shop, bakery or cafe that offers a limited selection of goods.  It is designed to be responsive and accessible on a range of devices.
 
-<h2 align="center"><img src="Documentation/Responsive.png"></h2>
+<h2 align="center"><img src="documentation/Responsive.png"></h2>
 
 ## User Experience (UX)
 
@@ -40,43 +40,43 @@ This is a simple webpage for a muffin shop, but can be used for any other small 
 ### Navigation Bar
 Featured on all three pages, the full responsive navigation bar includes links to the logo (links to "Home"), "Home", "Our Products" and "Franchising" pages. It is identical on each page to allow for easy navigation. For devices sized 1024px and larger, the [hover selector](https://www.w3schools.com/cssref/sel_hover.php) is used on the menu lists elements.
 
-<h2 align="center"><img src="Documentation/nav bar_desktop.png"></h2>
+<h2 align="center"><img src="documentation/nav bar_desktop.png"></h2>
 
 Navigation bar on mobile devices includes a logo with a link to the "Home" page and a hamburger icon, which opens the menu list when clicked.
 
-<h2><img src="Documentation/nav bar_mobile.png" width="100"></h2>
+<h2><img src="documentation/nav bar_mobile.png" width="100"></h2>
 
 The choice to make the navigation bar transparent was made so the picture can still be seen in the background.
 
 ### Hero Image
 Different hero images are used on pages "Home" and "Our Products" to draw the users' attention and make them want to purchase the products. The cover texts on the hero images function as marketing for the shop. 
 
-<h2><img src="Documentation/hero_1.png" width="100">&nbsp; &nbsp;<img src="Documentation/hero_2.png" width="100"></h2>
+<h2><img src="documentation/hero_1.png" width="100">&nbsp; &nbsp;<img src="documentation/hero_2.png" width="100"></h2>
 
 ### Home Page
 The "Home" page gives information about the shop and how to contact it.
 
-<h2 align="center"><img src="Documentation/home.png"></h2>
+<h2 align="center"><img src="documentation/home.png"></h2>
 
 ### Our Products Page
 The "Our Products" page introduces users to the products and the prices.
 
-<h2 align="center"><img src="Documentation/products.png"></h2>
+<h2 align="center"><img src="documentation/products.png"></h2>
 
 ### Franchising Page
 The "Franchising" page contains a form that should be filled out by users interested in franchising. It is required to fill in the Name, Surname; Country; Available Financing; Source of Financing and a valid E-mail address. The background photo of this page functions as marketing as well.
 
-<h2 align="center"><img src="Documentation/franchise.png"></h2>
+<h2 align="center"><img src="documentation/franchise.png"></h2>
 
 ### Thank You Page
 Users are directed to the "Thank you" page after submitting the form. From there they can go back to the "Home" page.
 
-<h2 align="center"><img src="Documentation/Thankyou.png"></h2>
+<h2 align="center"><img src="documentation/Thankyou.png"></h2>
 
 ### Footer
 The footer section includes the address of the shop, opening hours and the relevant social media sites for the shop. The links will open to a new tab to allow easy navigation for the user.
 
-<h2><img src="Documentation/footer.png" width="100"></h2>
+<h2><img src="documentation/footer.png" width="100"></h2>
 
 ## Technologies Used
 
@@ -105,7 +105,7 @@ The footer section includes the address of the shop, opening hours and the relev
 ### Wireframes
 
 Before the web development process all pages were designed using [Figma](https://figma.com/). Some details like font and padding sizes were changed during the pages development. 
-<h2 align="center"><img src="Documentation/Figma_file.png"></h2>
+<h2 align="center"><img src="documentation/Figma_file.png"></h2>
 
 ## Testing
 
