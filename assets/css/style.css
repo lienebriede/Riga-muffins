@@ -195,6 +195,10 @@ ul {
     line-height: 2rem;
 }
 
+.black-text p {
+    color: var(--black);
+}
+
 .text-input,
 .select,
 .message {
