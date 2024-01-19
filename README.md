@@ -117,7 +117,14 @@ Before the web development process all pages were designed using [Figma](https:/
 
 - Friends were asked to review the site and give feedback.
 
-### Issues
+### Bugs and Issues (updated!)
+
+There was an issue with the form. Since the font color was white, it was impossibe to read the text on the dropdown menus that have a  white background.
+![Error](documentation/error.gif)
+I have fixed this error by changing the text and background color of the dropdown boxes. 
+![Error fixed](documentation/new_form.png)
+
+Another issue was that the user could submit the form empty. This was due to an error on the submit button. This is fixed now too.
 
 Since this page does not represent an existing shop, and therefore there is no logo for the shop, a Heading2 (font: Bangers) was used for the text - RIGA MUFFINS. Thus Headings are not displayed in a logical order on the "Our products" page.
 
